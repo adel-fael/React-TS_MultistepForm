@@ -1,4 +1,4 @@
-import { FormWrapper } from "./FormWrapper"
+import { FormWrapper } from './helper/FormWrapper'
 
 type AccountData = {
   email: string
@@ -22,14 +22,14 @@ export function AccountForm({
         required
         type="email"
         value={email}
-        onChange={e => updateFields({ email: e.target.value })}
+        onChange={(e) => updateFields({ email: e.target.value })}
       />
       <label>Password</label>
       <input
         required
         type="password"
         value={password}
-        onChange={e => updateFields({ password: e.target.value })}
+        onChange={(e) => updateFields({ password: e.target.value })}
       />
     </FormWrapper>
   )

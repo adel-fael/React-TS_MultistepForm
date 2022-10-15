@@ -1,4 +1,4 @@
-import { FormWrapper } from './FormWrapper'
+import { FormWrapper } from './helper/FormWrapper'
 
 type UserData = {
   firstName: string
