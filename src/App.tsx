@@ -1,8 +1,8 @@
 import { FormEvent, ReactElement, useState } from 'react'
-import { AccountForm } from './components/AccountForm'
-import { AddressForm } from './components/AddressForm'
-import { UserForm } from './components/UserForm'
-import { useMultistepForm } from './hooks/useMultistepForm'
+import { AccountForm } from '@components/AccountForm'
+import { AddressForm } from '@components/AddressForm'
+import { UserForm } from '@components/UserForm'
+import { useMultistepForm } from '@hooks/useMultistepForm'
 
 type FormData = {
   firstName: string
